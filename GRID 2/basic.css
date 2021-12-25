@@ -1,0 +1,78 @@
+.box {
+    padding: 15px 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+.box:nth-child(1) {
+    background-color: red;
+}
+
+.box:nth-child(2) {
+    background-color: aquamarine;
+}
+
+.box:nth-child(3) {
+    background-color: burlywood;
+}
+
+.box:nth-child(4) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(5) {
+    background-color: chocolate;
+}
+
+.box:nth-child(6) {
+    background-color: darkgreen;
+}
+
+.box:nth-child(7) {
+    background-color: red;
+}
+
+.box:nth-child(8) {
+    background-color: aquamarine;
+}
+
+.box:nth-child(9) {
+    background-color: burlywood;
+}
+
+.box:nth-child(10) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(11) {
+    background-color: chocolate;
+}
+
+.box:nth-child(12) {
+    background-color: darkgreen;
+}
+
+.container {
+    text-align: center;
+    font-size: 32px;
+}
+
+header {
+    padding: 15px 0;
+    background-color: aquamarine;
+}
+
+aside {
+    padding: 15px 0;
+    background-color: brown;
+}
+
+main {
+    padding: 15px 0;
+    background-color: coral;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: darkcyan;
+}

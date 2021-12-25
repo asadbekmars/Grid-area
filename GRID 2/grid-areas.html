@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./basic.css">
+    <title>
+        GRID(grid-temlate-areas & grid-area)
+    </title>
+</head>
+<style>
+    .container {
+        height: 100vh;
+        display: grid;
+        /* grid-template-columns: repeat(6, 1fr); grid-areada bu kodni yozish shart emas*/
+        grid-template-rows: 100px auto 100px;
+        gap: 10px;
+        grid-template-areas:
+            "aside    aside   header   header    header    header"
+            "aside    aside   main     main      main      main"
+            "aside    aside   footer   footer    footer    footer"
+        ;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>HEADER</header>
+        <aside>MENU</aside>
+        <main>CONTENT</main>
+        <footer>FOOTER</footer>
+    </div>
+</body>
+
+</html>

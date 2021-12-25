@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-col</title>
+</head>
+<style>
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 100px auto 100px;
+    }
+
+    header {
+        grid-column: 4 / -1;
+        background-color: rgb(154, 247, 253);
+    }
+
+    aside {
+        grid-column: 4 / -1;
+        background-color: rgb(253, 161, 154);
+    }
+
+    main {
+        grid-column: 1 / 4;
+        grid-row: 1 / -1;
+
+        background-color: rgb(248, 210, 43);
+    }
+
+    footer {
+        grid-column: 4 / -1;
+        background-color: rgb(50, 104, 255);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <main>Menu</main>
+        <aside>Content</aside>
+
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>

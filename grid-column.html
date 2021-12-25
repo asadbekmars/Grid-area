@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid column</title>
+</head>
+<style>
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .container .box {
+        background-color: rgb(248, 131, 131);
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box" style="grid-area: a;"></div>
+        <div class="box" style="grid-area: b;"></div>
+        <div class="box" style="grid-area: c;"></div>
+        <div class="box" style="grid-area: d;"></div>
+        <div class="box" style="grid-area: f;"></div>
+        <div class="box" style="grid-area: g;"></div>
+        <div class="box" style="grid-area: h;"></div>
+        <div class="box" style="grid-area: j;"></div>
+
+    </div>
+</body>
+
+</html>
